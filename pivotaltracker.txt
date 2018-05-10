@@ -1,0 +1,188 @@
+Create User Sign up page
+
+**_Business/User Value:_**  User should be able to access a signup page in order to own an account on the app.
+
+**_Acceptance Criteria_**
+GIVEN A user
+WHEN user visits the sign up URL
+THEN load the signup page
+
+**DEV NOTES**
+The sign up page should have a simple form to collect user data.
+
+**DESIGN Notes**
+Simple and attractive UI
+
+
+
+
+User should be able to sign up
+
+**_Business/User Value:_**  As a User, I should be able to signup with my details, so that I can own an account on the app.
+
+**_Acceptance Criteria_**
+GIVEN A user with registration details supplied correctly
+WHEN user clicks on _signup button_ on the signup form
+THEN create account for the user.
+
+**DEV NOTES**
+The signup form should be made simple, to collect only useful information from users.
+Create form fields for  _full name_, _email_, _username_, and _password_
+
+**DESIGN Notes**
+Simple and attractive UI. The signup button should be obviously displayed.
+
+
+
+
+Create User Sign in page
+
+**_Business/User Value:_**  User should be able to access a sign in page in order to access the sign in form.
+
+**_Acceptance Criteria_**
+GIVEN A user
+WHEN user visits the sign in URL
+THEN load the signin page
+
+**DEV NOTES**
+The signin page should have a simple form to collect user data.
+
+**DESIGN Notes**
+Simple and attractive UI
+
+
+
+
+
+User should be able to signin
+
+**_Business/User Value:_**  As a User, I should be able to signin with my details, so that I can make maintenance request and view the status on the app.
+
+**_Acceptance Criteria_**
+GIVEN A signed up user
+WHEN user clicks on _signin button_ on the signin form
+THEN direct the user to his/her requests page on the app.
+
+**DEV NOTES**
+The signin form should be made simple and descriptive, use only username and password for sign in.
+Create form fields for  _username_, and _password_
+
+**DESIGN Notes**
+Simple and attractive UI. The signin button should be obviously displayed.
+
+
+
+
+
+Create Admin signin page
+
+**_Business/User Value:_**  Admin should be able to access a sign in page in order to access the sign in form.
+
+**_Acceptance Criteria_**
+GIVEN A admin
+WHEN admin visits the sign in URL
+THEN load the admin signin page
+
+**DEV NOTES**
+The admin signin page should have a simple form to collect admin data.
+
+**DESIGN Notes**
+Simple and attractive UI
+
+
+
+
+
+Admin should be able to signin
+
+**_Business/User Value:_**  As an Admin, I should be able to signin with my details, so that I can make manage users maintenance and repairs requests on the app.
+
+**_Acceptance Criteria_**
+GIVEN An admin on the admin signin page
+WHEN admin clicks on _signin button_ on the signin form
+THEN direct the admin to the dashboard showing all requests.
+
+**DEV NOTES**
+The signin form should be made simple and descriptive, use only username and password for sign in.
+Create form fields for  _username_, and _password_
+
+**DESIGN Notes**
+Simple and attractive UI. The signin button should be obviously displayed.
+
+
+
+
+
+
+Create admin dashboard to display all requests
+
+**_Business/User Value:_**  As an Admin, I should be able to view all user requests on the app, and manage the requests.
+
+**_Acceptance Criteria_**
+GIVEN an authenticated admin
+WHEN admin is on the admin-dashboard
+THEN admin should be able to see a list of all user requests on the app.
+
+**DEV NOTES**
+The page should be made descriptive and simple. Display only _username_ of the user, _request type_, and _timestamp_ of the request.
+
+**DESIGN Notes**
+Simple and attractive UI.
+
+
+
+
+
+
+Admin should be able to view details of a request
+
+**_Business/User Value:_**  As an Admin, I should be able to view details of user request on the app, so that I can attend to the request.
+
+**_Acceptance Criteria_**
+GIVEN an authenticated admin
+WHEN clicks on _view details_ button on the dashboard
+THEN admin should be able to see details of the user request and action buttons to accept or reject the request.
+
+**DEV NOTES**
+The page should be made descriptive and simple. _Request description_ should be included in the view page.
+
+**DESIGN Notes**
+Simple and attractive UI.
+
+
+
+
+
+Admin should be able to resolve user request
+
+**_Business/User Value:_**  As an Admin, I should be able to access the request of a user, so that I can resolve the request I accepted.
+
+**_Acceptance Criteria_**
+GIVEN an authenticated admin
+WHEN admin clicks on the user request page
+THEN admin should be able to resolve the user request and update the status of the request
+
+**DEV NOTES**
+Admin should update the status of the request so that user can get meaningful feedback.
+
+**DESIGN Notes**
+Simple and attractive UI.
+
+
+
+
+
+User should be able to create request
+
+**_Business/User Value:_**  As a user, I should be able to create request for on the app, so that my repairs/maintenance can be attended to.
+**_Acceptance Criteria_**
+GIVEN an authenticated user
+WHEN user visits the create-request page
+THEN user should be able to create request and submit on the app.
+
+**DEV NOTES**
+Create a form to accept the user request. Require the _username_, _request description_,  _request type_ (repair or maintenance)
+
+**DESIGN Notes**
+Simple and attractive UI.
+
